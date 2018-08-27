@@ -22,12 +22,13 @@
         app:showAsAction="never" />
 
     <item
+        android:id="@+id/add_food"
+        android:title="Add Food"
+        app:showAsAction="never" />
+
+    <item
         android:id="@+id/delete_all"
         android:title="Delete All"
         app:showAsAction="never" />
 
-    <item
-        android:id="add_food"
-        android:title="Add Food"
-        app:showAsAction="never" />
 </menu>
