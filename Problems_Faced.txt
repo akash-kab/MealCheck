@@ -1,17 +1,27 @@
 MealCheck:
 
 
-I started off using an ArrayList Adapter even though I wanted to include a database in this app which will keep track of the history of when people eat or do not eat a certain food. The database will be stored on the user's phone. 
+I started off using an ArrayList Adapter even though I wanted to
+include a database in this app which will keep track of the history
+of when people eat or do not eat a certain food. The database will be
+stored on the user's phone. 
 
-Later, I realized that to use a Adapter, I will need to use a cursor adapter to make it a little easier. I figured this out because of a tutorial I went through that explained how to properly use SQLite.
+Later, I realized that to use a Adapter, I will need to use a cursor
+adapter to make it a little easier. I figured this out because of a
+tutorial I went through that explained how to properly use SQLite.
 
-I am thinking of making one database, and 7 different tables. One for each day of the week. I want to use 7 different tables to make it more organized and easier to maintain. Otherwise, I will need to check the date and then figure out what day of the week that was.
+I am thinking of making one database, and 7 different tables. One for
+each day of the week. I want to use 7 different tables to make it
+more organized and easier to maintain. Otherwise, I will need to
+check the date and then figure out what day of the week that was.
 
-Basically, the headers will be id, date, and all the food names from that specific day. As new food is added, I will use the following:
+Basically, the headers will be id, date, and all the food names from
+that specific day. As new food is added, I will use the following:
 "ALTER TABLE {tableName} ADD COLUMN {colName} {Type}"
 
 TODO: August 28th, 2018
 1) Change ArrayListAdapter to CursorAdapter.
 2) Add logic for database. Create the database, and the tables.
-	a) Before creation, user will be asked to input the Meal Plan they created so all the food/meals are ready to be added.
+	a) Before creation, user will be asked to input the Meal Plan
+	they created so all the food/meals are ready to be added.
 3) And more...
