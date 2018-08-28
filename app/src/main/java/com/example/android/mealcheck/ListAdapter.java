@@ -10,6 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 public class ListAdapter extends ArrayAdapter<Word> {
+    //TODO Change ArrayAdapter to CursorAdapter because we will be using a database.
 
     public ListAdapter(Context context, List<Word> words) {
         super(context, 0, words);
