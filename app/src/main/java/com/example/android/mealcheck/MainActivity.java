@@ -4,6 +4,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,6 +14,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+/*
+        // testing adapter and listview.
+        // Create a list of words
+        ArrayList<Word> words = new ArrayList<Word>();
+        words.add(new Word("Beans"));
+        words.add(new Word("Black Beans"));
+        words.add(new Word("Testing"));
+        words.add(new Word("Kidney Beans"));
+
+        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // adapter knows how to create list items for each item in the list.
+        ListAdapter adapter = new ListAdapter(this, words);
+
+        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
+        // There should be a {@link ListView} with the view ID called list, which is declared in the
+        // word_list.xml layout file.
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Word} in the list.
+        listView.setAdapter(adapter);
+*/
     }
 
 
@@ -40,4 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+
+
 }
