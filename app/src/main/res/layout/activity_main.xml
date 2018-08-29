@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffcccc"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <ListView
-        android:id="@+id/list"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/monday"
+        android:background="@color/RedShade"
+        style="@style/Category"
+        android:text="Monday" />
 
-</RelativeLayout>
+    <TextView
+        android:id="@+id/tuesday"
+        style="@style/Category"
+        android:text="Tuesday" />
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:background="@color/RedShade"
+        style="@style/Category"
+        android:text="Wednesday" />
+
+    <TextView
+        android:id="@+id/thursday"
+        style="@style/Category"
+        android:text="Thursday" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:background="@color/RedShade"
+        style="@style/Category"
+        android:text="Friday" />
+
+    <TextView
+        android:id="@+id/saturday"
+        style="@style/Category"
+        android:text="Saturday" />
+
+    <TextView
+        android:id="@+id/suday"
+        android:background="@color/RedShade"
+        style="@style/Category"
+        android:text="Sunday" />
+</LinearLayout>
