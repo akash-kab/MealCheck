@@ -42,7 +42,7 @@
         android:text="Saturday" />
 
     <TextView
-        android:id="@+id/suday"
+        android:id="@+id/sunday"
         android:background="@color/RedShade"
         style="@style/Category"
         android:text="Sunday" />

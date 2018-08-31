@@ -1,5 +1,6 @@
 package com.example.android.mealcheck;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,6 +9,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
+import com.example.android.mealcheck.days.*;
 
 import java.util.ArrayList;
 
@@ -16,8 +18,85 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
+        //when monday is clicked
+        TextView monday = (TextView) findViewById(R.id.monday);
+        //set click listener
+        monday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mondayIntent = new Intent(MainActivity.this, MondayActivity.class);
+                startActivity(mondayIntent);
+            }
+        });
+
+        //when tuesday is clicked
+        TextView tuesday = (TextView) findViewById(R.id.tuesday);
+        //set click listener
+        tuesday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tuesdayIntent = new Intent(MainActivity.this, TuesdayActivity.class);
+                startActivity(tuesdayIntent);
+            }
+        });
+
+        //when wednesday is clicked
+        TextView wednesday = (TextView) findViewById(R.id.wednesday);
+        //set click listener
+        wednesday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent wednesdayIntent = new Intent(MainActivity.this, WednesdayActivity.class);
+                startActivity(wednesdayIntent);
+            }
+        });
+
+        //when thursday is clicked
+        TextView thursday = (TextView) findViewById(R.id.thursday);
+        //set click listener
+        thursday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent thursdayIntent = new Intent(MainActivity.this, ThursdayActivity.class);
+                startActivity(thursdayIntent);
+            }
+        });
+
+        //when friday is clicked
+        TextView friday = (TextView) findViewById(R.id.friday);
+        //set click listener
+        friday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent fridayIntent = new Intent(MainActivity.this, FridayActivity.class);
+                startActivity(fridayIntent);
+            }
+        });
+
+        //when saturday is clicked
+        TextView saturday = (TextView) findViewById(R.id.saturday);
+        //set click listener
+        saturday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent saturdayIntent = new Intent(MainActivity.this, SaturdayActivity.class);
+                startActivity(saturdayIntent);
+            }
+        });
+
+        //when sunday is clicked
+        TextView sunday = (TextView) findViewById(R.id.sunday);
+        //set click listener
+        sunday.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sundayIntent = new Intent(MainActivity.this, SundayActivity.class);
+                startActivity(sundayIntent);
+            }
+        });
 
         //Add Food from menu option
         TextView add = (TextView) findViewById(R.id.add_food);
