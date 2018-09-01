@@ -22,8 +22,18 @@ public final class Contract {
         public final static String TABLE_SUNDAY = "sunday";
 
 
-        //Common Column name
+        //column _id
         public final static String _ID = BaseColumns._ID;
+
+        //column mean name
+        public final static String COLUMN_MEAL_NAME = "meal";
+
+        //column Checked or not
+        public final static String COLUMN_CHECKED = "check";
+
+        //values for COLUMN_CHECKED
+        public static final int EATEN = 1;
+        public static final int NOTEATEN = 0;
 
     }
 }
