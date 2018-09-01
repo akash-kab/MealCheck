@@ -33,3 +33,22 @@ The plan to take in user input is to take it in one by one for each food/meal.
 Once the user inputs one, user presses enter and the view updates
 with entered meal and then the next EditText view is there for user 
 to enter the next input.
+
+
+September 1, 2018:
+
+One problem previously faced was being able to make the app run again.
+In order to do that, I had to properly read the Logcat while trying
+to run the app. Eventually, I figured out the exact line and file the 
+problem was occuring and fixed the problem by changing the code.
+
+Plan for database:
+I am thinking about making the database in a different style than 
+explained before. Now, I am thinking of making 3 columns, id, food, and checked.
+The table will update when food is added. And update when the user 
+checks off the food being eaten. End of the day or end of the week - 
+all existing food will be unchecked so the user can check it again 
+as needed. 
+
+TODO:
+- Still need to create xml file and write java code to be able to take in data from the user. 
