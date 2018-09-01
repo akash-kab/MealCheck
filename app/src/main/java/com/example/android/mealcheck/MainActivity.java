@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+/*      THIS DOES NOT WORK.. NEED TO USE THE CASE STATEMENTS FOR THIS.
         //Add Food from menu option
         TextView add = (TextView) findViewById(R.id.add_food);
         add.setOnClickListener(new View.OnClickListener() {
@@ -107,6 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newActivity);
             }
         });
+*/
 
 /*
         // testing adapter and listview.

@@ -25,3 +25,11 @@ TODO: August 28th, 2018
 	a) Before creation, user will be asked to input the Meal Plan
 	they created so all the food/meals are ready to be added.
 3) And more...
+
+
+August 31, 2018:
+
+The plan to take in user input is to take it in one by one for each food/meal.
+Once the user inputs one, user presses enter and the view updates
+with entered meal and then the next EditText view is there for user 
+to enter the next input.
