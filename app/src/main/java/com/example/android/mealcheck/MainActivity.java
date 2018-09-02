@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
+
         //when monday is clicked
         TextView monday = (TextView) findViewById(R.id.monday);
         //set click listener
@@ -98,6 +99,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
 /*      THIS DOES NOT WORK.. NEED TO USE THE CASE STATEMENTS FOR THIS.
         //Add Food from menu option
         TextView add = (TextView) findViewById(R.id.add_food);
@@ -108,9 +110,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(newActivity);
             }
         });
-*/
+
 
 /*
+
+
         // testing adapter and listview.
         // Create a list of words
         ArrayList<Word> words = new ArrayList<Word>();
@@ -119,7 +123,7 @@ public class MainActivity extends AppCompatActivity {
         words.add(new Word("Testing"));
         words.add(new Word("Kidney Beans"));
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link ListAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         ListAdapter adapter = new ListAdapter(this, words);
 
@@ -132,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 */
+
     }
 
 
@@ -161,7 +166,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
 
 
 }
