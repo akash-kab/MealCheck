@@ -21,7 +21,14 @@
             android:label="Food Activity" />
         <activity
             android:name=".days.MondayActivity"
-            android:label="Monday Activity" />
+            android:label="Monday" />
+        <activity
+            android:name=".days.TuesdayActivity"
+            android:label="Tuesday" />
+        <activity
+            android:name=".days.WednesdayActivity"
+            android:label="Wednesday" />
+
     </application>
 
 </manifest>

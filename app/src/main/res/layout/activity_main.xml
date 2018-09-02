@@ -8,42 +8,72 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/monday"
-        android:background="@color/RedShade"
-        style="@style/Category"
-        android:text="Monday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RedShade">
+        <TextView
+            android:id="@+id/monday"
+            style="@style/Category"
+            android:text="Monday" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/tuesday"
-        style="@style/Category"
-        android:text="Tuesday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tuesday"
+            style="@style/Category"
+            android:text="Tuesday" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/wednesday"
-        android:background="@color/RedShade"
-        style="@style/Category"
-        android:text="Wednesday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RedShade">
+        <TextView
+            android:id="@+id/wednesday"
+            style="@style/Category"
+            android:text="Wednesday" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/thursday"
-        style="@style/Category"
-        android:text="Thursday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/thursday"
+            style="@style/Category"
+            android:text="Thursday" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/friday"
-        android:background="@color/RedShade"
-        style="@style/Category"
-        android:text="Friday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RedShade">
+        <TextView
+            android:id="@+id/friday"
 
-    <TextView
-        android:id="@+id/saturday"
-        style="@style/Category"
-        android:text="Saturday" />
+            style="@style/Category"
+            android:text="Friday" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/sunday"
-        android:background="@color/RedShade"
-        style="@style/Category"
-        android:text="Sunday" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/saturday"
+            style="@style/Category"
+            android:text="Saturday" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RedShade">
+        <TextView
+            android:id="@+id/sunday"
+
+            style="@style/Category"
+            android:text="Sunday" />
+    </FrameLayout>
 </LinearLayout>
