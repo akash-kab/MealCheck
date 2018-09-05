@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".FoodActivity"
-            android:label="Food Activity" />
+            android:name=".AddFoodActivity"
+            android:label="Add Food" />
         <activity
             android:name=".days.MondayActivity"
             android:label="Monday" />

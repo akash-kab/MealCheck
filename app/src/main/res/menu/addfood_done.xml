@@ -5,8 +5,8 @@
     tools:context=".AddFoodActivity">
 
     <item
-        android:id="@+id/add_food"
-        android:title="Add Food"
+        android:id="@+id/done"
+        android:title="Done"
         app:showAsAction="always" />
 
 </menu>
