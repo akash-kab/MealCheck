@@ -50,5 +50,6 @@ checks off the food being eaten. End of the day or end of the week -
 all existing food will be unchecked so the user can check it again 
 as needed. 
 
-TODO:
+TODO: -- DONE
 - Still need to create xml file and write java code to be able to take in data from the user. 
+
